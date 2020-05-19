@@ -1,0 +1,8 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  FeedBackFilter.cpp
+  RackAFXDLL.cpp
+  pluginobjects.cpp
+  plugin.cpp
+  Generating Code...
+     Creating library C:\Users\Trizelous\AppData\Roaming\RackAFX\PlugIns\FeedBackFilter.lib and object C:\Users\Trizelous\AppData\Roaming\RackAFX\PlugIns\FeedBackFilter.exp
+  FeedBackFilter.vcxproj -> C:\Users\Trizelous\AppData\Roaming\RackAFX\PlugIns\FeedBackFilter.dll
