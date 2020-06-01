@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{59FBCD5F-4A78-4496-B487-0E54328FC190}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{100D1FD3-00F0-455C-9CFE-14D3408F6C65}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+     <Filter Include="Resources">
+      <UniqueIdentifier>{60765442-CE09-4DA2-B15A-FDB242F0A21F}</UniqueIdentifier>
+    </Filter>   
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RackAFXDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResonantLPFwMassberg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RackAFXDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResonantLPFwMassberg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+   <ItemGroup>
+      <Image Include="resources\knobvst.png">
+        <Filter>Resources</Filter>
+      </Image>
+    </ItemGroup>
+    <ItemGroup>
+      <ResourceCompile Include="ResonantLPFwMassberg.rc">
+        <Filter>Resources</Filter>
+      </ResourceCompile>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="RackAFX.uidesc">
+        <Filter>Resources</Filter>
+      </None>
+  </ItemGroup>
+</Project>
+
